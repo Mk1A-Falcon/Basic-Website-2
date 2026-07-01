@@ -1,11 +1,15 @@
 body {
   text-align: center;
+  background-color: wheat;
 }
 h1 {
   color: violet
 }
 h2 {
   color:black;
+}
+p {
+  color: lightseagreen;
 }
 .p1 {
   color:gray;
