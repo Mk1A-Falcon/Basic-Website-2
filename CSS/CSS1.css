@@ -1,3 +1,29 @@
 body {
   text-align: center;
+  background-color: wheat;
 }
+h1 {
+  font-family: "Black Ops One", system-ui;
+  color: rosybrown;
+}
+h2 {
+  color: lightseagreen;
+}
+.span1 {
+  text-decoration: underline;
+  color:cornflowerblue;
+  font-style: italic;
+}
+.p1 {
+  color:darkblue;
+}
+.a1 {
+  color: rgb(240, 108, 56);
+  font-family: "Black Ops One";
+  cursor:grab;
+}
+img {
+  width: 500px;
+  border-radius: 8px;
+}
+
