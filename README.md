@@ -9,6 +9,7 @@ background : linear-gradient (value1,value2);
 
 Also extensions used->
 1.Prettier-(Used for Indentation in code.)
+
 https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
 Note-
