@@ -1,16 +1,25 @@
 body {
   text-align: center;
-  background-color: wheat;
+  background :linear-gradient(darkslategray,cadetblue);
+  padding-bottom: 438px;
 }
 h1 {
   color: violet
 }
 h2 {
   color:black;
+  font-family:'Courier New', Courier, monospace;
 }
 p {
   color: lightseagreen;
 }
 .p1 {
   color:gray;
+}
+a {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgb(161, 89, 161);
 }
