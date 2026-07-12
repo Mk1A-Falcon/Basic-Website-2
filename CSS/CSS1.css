@@ -6,13 +6,12 @@
 body {
   text-align: center;
   background: var(--instagrambg);
-  color: var(--text-color);
   font-family: "Roboto",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-bottom: 250px;
 }
 h1 {
   font-family: "Black Ops One", system-ui;
-  color: rosybrown;
+  color: var(--text-color);
 }
 h2 {
   color: lightseagreen;
@@ -53,6 +52,18 @@ h2 {
   text-align: center;
   font-family: "Black Ops One", Arial, Helvetica, sans-serif;
 }
+.text {
+  margin-left: 210px;
+  margin-right: 210px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-radius: 20px;
+  transition: box-shadow 0.5s;
+}
+.text:hover {
+  box-shadow: 0px 0px 20px red;
+}
 .span1 {
   text-decoration: underline;
   color:cornflowerblue;
@@ -68,6 +79,7 @@ h2 {
   background: var(--button);
   padding: 6px 6px 6px 6px;
   border-radius: 15px;
+  color: violet;
 }
 img {
   width: 500px;
