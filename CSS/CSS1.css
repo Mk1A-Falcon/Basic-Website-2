@@ -1,12 +1,13 @@
 :root {
-  --instagrambg: linear-gradient( white,rgba(0, 0, 0, 0.534));
-  --button: linear-gradient(#c12a99e4,rgba(94, 29, 207, 0.404));
+  --instagrambg: linear-gradient(white, rgba(0, 0, 0, 0.534));
+  --button: linear-gradient(#c12a99e4, rgba(94, 29, 207, 0.404));
   --text-color: lightcoral;
 }
 body {
   text-align: center;
   background: var(--instagrambg);
-  font-family: "Roboto",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:
+    "Roboto", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding-bottom: 250px;
 }
 h1 {
@@ -32,15 +33,16 @@ h2 {
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "Black Ops One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color:rgba(94, 29, 207, 0.598)
+  font-family:
+    "Black Ops One", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgba(94, 29, 207, 0.598);
 }
 .navbar {
   padding: 8px 10px 8px 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
-  color:rgb(240, 108, 56)
+  color: rgb(240, 108, 56);
 }
 .navy {
   font-size: 16px;
@@ -60,22 +62,43 @@ h2 {
   padding-top: 20px;
   border-radius: 20px;
   transition: box-shadow 0.5s;
+  background: linear-gradient(
+    90deg,
+    #c12a99,
+    #5e1dcf,
+   #c62c74,
+    #5e1dcf,
+    #c12a99
+  );
+  background-size: 300% 100%;
+  animation: text 6s linear infinite;
+}
+@keyframes text {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 .text:hover {
-  box-shadow: 0px 0px 20px red;
+  box-shadow: 0px 0px 20px lightseagreen;
 }
 .span1 {
   text-decoration: underline;
-  color:cornflowerblue;
+  color: cornflowerblue;
   font-style: italic;
 }
 .p1 {
-  color:darkblue;
+  color: darkblue;
 }
 .a1 {
   color: rgb(240, 108, 56);
   font-family: "Black Ops One";
-  cursor:grab;
+  cursor: grab;
   background: var(--button);
   padding: 6px 6px 6px 6px;
   border-radius: 15px;
@@ -85,4 +108,3 @@ img {
   width: 500px;
   border-radius: 8px;
 }
-

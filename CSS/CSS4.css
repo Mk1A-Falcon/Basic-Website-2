@@ -1,7 +1,49 @@
+:root {
+  --instagrambg: linear-gradient( white,rgba(0, 0, 0, 0.534));
+  --button: linear-gradient(#c12a99e4,rgba(94, 29, 207, 0.404));
+  --text-color: lightcoral;
+}
 body {
   text-align: center;
-  background :linear-gradient(darkslategray,cadetblue);
+  background :linear-gradient(rgb(47, 79, 79),cadetblue);
   padding-bottom: 430px;
+}
+.nav {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  column-gap: 25rem;
+  border-radius: 30px;
+  background: var(--button);
+  padding: 8px 12px 8px 12px;
+}
+.icon-time {
+  text-align: center;
+}
+.icon {
+  text-align: left;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Black Ops One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:rgba(94, 29, 207, 0.598)
+}
+
+.navbar {
+  padding: 8px 10px 8px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  color:rgb(240, 108, 56)
+}
+.navy {
+  font-size: 16px;
+  color: #c12a99;
+  background-color: rgba(94, 29, 207, 0.598);
+  border-radius: 10px;
+  padding: 6px 6px 6px 6px;
+  display: inline-block;
+  text-align: center;
+  font-family: "Black Ops One", Arial, Helvetica, sans-serif;
 }
 h1 {
   color: lightcoral;
@@ -21,6 +63,18 @@ a {
   margin-bottom: 10px;
   font-size: 24px;
   color: rgb(161, 89, 161);
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+      gap: 20px;
+}
+.links {
+  background: var(--instagrambg);
+  width: 400px;
+  border-radius: 20px;
+  height: 200px;
+
 }
 .a3 {
   margin-top: 30px;
