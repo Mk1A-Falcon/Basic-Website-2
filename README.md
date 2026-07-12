@@ -1,5 +1,5 @@
-# Basic-Website-2
-Continuation to Basic-Website. Used new html elements namely, a-anchor , link-link(bruh) , title-Title for webpage.
+# Advanced-Website-1
+Continuation to Basic-Website-2. Used new html elements namely, a-anchor , link-link(bruh) , title-Title for webpage.
 
 Specefic CSS Properties Used->
 
