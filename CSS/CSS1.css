@@ -66,7 +66,6 @@ h2 {
     90deg,
     #c12a99,
     #5e1dcf,
-   #c62c74,
     #5e1dcf,
     #c12a99
   );
@@ -74,15 +73,15 @@ h2 {
   animation: text 6s linear infinite;
 }
 @keyframes text {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .text:hover {
   box-shadow: 0px 0px 20px lightseagreen;

@@ -1,11 +1,11 @@
 :root {
-  --instagrambg: linear-gradient( white,rgba(0, 0, 0, 0.534));
-  --button: linear-gradient(#c12a99e4,rgba(94, 29, 207, 0.404));
+  --instagrambg: linear-gradient(white, rgba(0, 0, 0, 0.534));
+  --button: linear-gradient(#c12a99e4, rgba(94, 29, 207, 0.404));
   --text-color: lightcoral;
 }
 body {
   text-align: center;
-  background :linear-gradient(rgb(47, 79, 79),cadetblue);
+  background: linear-gradient(rgb(47, 79, 79), cadetblue);
   padding-bottom: 430px;
 }
 .nav {
@@ -24,8 +24,9 @@ body {
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "Black Ops One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color:rgba(94, 29, 207, 0.598)
+  font-family:
+    "Black Ops One", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgba(94, 29, 207, 0.598);
 }
 
 .navbar {
@@ -33,7 +34,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
-  color:rgb(240, 108, 56)
+  color: rgb(240, 108, 56);
 }
 .navy {
   font-size: 16px;
@@ -47,13 +48,13 @@ body {
 }
 h1 {
   color: lightcoral;
-  font-family: 'Black Ops One', Arial, Helvetica, sans-serif;
+  font-family: "Black Ops One", Arial, Helvetica, sans-serif;
   font-size: 50px;
   margin-bottom: 10px;
 }
 h2 {
-  color:coral;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: coral;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-bottom: 20px;
   letter-spacing: 1px;
 }
@@ -67,14 +68,13 @@ a {
 .flex {
   display: flex;
   flex-direction: row;
-      gap: 20px;
+  gap: 20px;
 }
 .links {
   background: var(--instagrambg);
   width: 400px;
   border-radius: 20px;
   height: 200px;
-
 }
 .a3 {
   margin-top: 30px;

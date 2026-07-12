@@ -45,7 +45,6 @@ body {
   font-family: "Black Ops One", Arial, Helvetica, sans-serif;
 }
 a {
-  display: block;
   color: blueviolet;
   margin-bottom: 12px;
   font-size: 20px;
@@ -56,7 +55,7 @@ a {
 }
 .chess {
   color: lightsalmon;
-  display: inline-block;
+  display: inline;
   font-size: 22px;
 }
 h1 {
@@ -69,13 +68,30 @@ h2 {
 img {
   width: 350px;
   border-radius: 4px;
+  display: inline;
 }
 p {
   font-family: "Black Ops One";
+  text-align: center;
 }
 .span1 {
   color: rgb(96, 96, 96);
 }
 .a3 {
   margin-top: 16px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.sneakpeak {
+  border-radius: 20px;
+  margin-left: 190px;
+  margin-right: 190px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: box-shadow 0.21s;
+}
+.sneakpeak:hover {
+    box-shadow: 0px 0px 5px black;
 }
