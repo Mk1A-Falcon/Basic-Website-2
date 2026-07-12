@@ -1,6 +1,14 @@
+:root {
+  --instagrambg: linear-gradient( white,rgba(0, 0, 0, 0.534));
+  --button: linear-gradient(#c12a99e4,rgba(94, 29, 207, 0.404));
+  --text-color: lightcoral;
+}
 body {
   text-align: center;
-  background-color: wheat;
+  background: var(--instagrambg);
+  color: var(--text-color);
+  font-family: "Roboto",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-bottom: 250px;
 }
 h1 {
   font-family: "Black Ops One", system-ui;
@@ -8,6 +16,42 @@ h1 {
 }
 h2 {
   color: lightseagreen;
+}
+.nav {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  column-gap: 25rem;
+  border-radius: 30px;
+  background: linear-gradient(darkslategray, cadetblue);
+  padding: 8px 12px 8px 12px;
+}
+.icon-time {
+  text-align: center;
+}
+.icon {
+  text-align: left;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Black Ops One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:rgba(94, 29, 207, 0.598)
+}
+.navbar {
+  padding: 8px 10px 8px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  color:rgb(240, 108, 56)
+}
+.navy {
+  font-size: 16px;
+  color: #c12a99;
+  background-color: rgba(94, 29, 207, 0.598);
+  border-radius: 10px;
+  padding: 6px 6px 6px 6px;
+  display: inline-block;
+  text-align: center;
+  font-family: "Black Ops One", Arial, Helvetica, sans-serif;
 }
 .span1 {
   text-decoration: underline;
@@ -21,6 +65,9 @@ h2 {
   color: rgb(240, 108, 56);
   font-family: "Black Ops One";
   cursor:grab;
+  background: var(--button);
+  padding: 6px 6px 6px 6px;
+  border-radius: 15px;
 }
 img {
   width: 500px;
