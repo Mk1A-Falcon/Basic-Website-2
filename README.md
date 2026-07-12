@@ -7,6 +7,8 @@ Specefic CSS Properties Used->
 Syntax-
 background : linear-gradient (value1,value2);
 
+2.Learnt Animations and Transitions.
+
 Also extensions used->
 1.Prettier-(Used for Indentation in code.)
 
